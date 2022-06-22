@@ -24,6 +24,7 @@
   background: linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9);
   background-size: 100%;
   -webkit-background-clip: text;
+    background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
@@ -45,6 +46,7 @@
   background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
   background: linear-gradient(to right, #FFFDE4, #005AA7);
   -webkit-background-clip: text;
+    background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
@@ -81,6 +83,7 @@ figcaption {
     background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
     background: linear-gradient(to right, #FFFDE4, #005AA7);
     -webkit-background-clip: text;
+      background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
