@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://patelheet30.github.io">
+  <meta property="og:title" content="Heet Patel's Website">
+  <meta property="og:description" content="Visit this website to get more information about me(Heet Patel)">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heet Patel's Portfolio</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div id="mobileModal" style="display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.4);">
+      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #333333; width: 80%;">
+        <p style="color: rgb(56,56,56);">For the best user experience, please use a desktop browser.</p>
+        <button id="closeModalBtn">Close</button>
+      </div>
+    </div>
+    <div class="my-title">
+      <h1 class="name">Heet Patel</h1>
+      <h2 class="title">Data Scientist</h2>
+    </div>
+    <div class="about-me">
+        <h3>About Me</h3>
+        <p>
+            I am an undergraduate student pursuing a degree in Data Science at Nottingham Trent University. In addition to my academic pursuits,
+            I am an enthusiastic content creator on YouTube.<br><br> My GitHub repository showcases a combination of personal projects that
+            I've embarked on out of curiosity and code from my coursework in the Data Science course.<br><br>
+            My academic journey has equipped me with a strong foundation in data analytics, programming, and machine learning.
+            I am passionate about harnessing the power of data to drive insights and solutions. Through my YouTube channel and GitHub,
+            I aim to share my knowledge and experiences in the world of data science.<br><br>
+            Thank you for visiting my profile, and I look forward to connecting with fellow data enthusiasts and professionals.
+        </p>
+    </div>
+    <div class="timeline">
+        <div class="event">
+            <span class="date">2004 - 2012</span>
+            <div class="details">
+                <h4>Studied at various schools in India</h4>
+                <p>
+                    I was born in India and lived in Gujarat and Bihar. I learned Gujarati,
+                    my mother tongue, and picked up basic Hindi because it's the national language and spoken in my birth state.
+                    I also learned English during my time in India.
+                </p>
+            </div>
+        </div>
+        <div class="event">
+            <span class="date">2012-2020</span>
+            <div class="details">
+                <h4>GCSE at Swaminarayan School</h4>
+                Grades:
+                    <ul>
+                        <li>9 in Maths, Biology, Chemistry, Physics Geography</li>
+                        <li>8 in Computer Science, Physical Education</li>
+                        <li>A in Gujarati</li>
+                        <li>6 in English Language, English Literature, Religious Studies</li>
+                    </ul>
+                <p>
+                    In 2012, I relocated to the UK, where I pursued my education at Swaminarayan School.
+                    I completed both primary and secondary schooling at the same institution. During my secondary education,
+                    I opted to study Gujarati as part of my GCSE curriculum. It was during this time that my interest in computer science
+                    and mathematics began to flourish. I also gained a fundamental understanding of object-oriented programming using
+                    Java through the Greenfoot platform, and I acquired the basics of HTML and CSS.
+                </p>
+            </div>
+        </div>
+        <div class="event">
+            <span class="date">2020 - 2022</span>
+            <div class="details">
+                <h4>A-Levels at St Albans School</h4>
+                Grades:
+                    <ul>
+                        <li>A in Biology and Chemistry</li>
+                        <li>B in Maths</li>
+                    </ul>
+                <p>
+                    I transferred to St Albans School for my A-Levels.
+                    I initially pursued computer science as one of my subjects but eventually dropped it,
+                    sticking with Biology, Chemistry, and Maths. During that period, I got into data science and machine learning,
+                    which led me to start learning Python in my spare time.
+                </p>
+            </div>
+        </div>
+        <div class="event">
+            <span class="date">2022-Present</span>
+            <div class="details">
+                <h4>Data Science at Nottingham Trent University</h4>
+                Grades:
+                    <ul>
+                        <li>Low 1st in Year 1</li>
+                    </ul>
+                <p>
+                    I'm currently studying Data Science at Nottingham Trent University.
+                    I've been honing my Python skills, particularly in areas like chatbots and web-apps.
+                    I even began working on my own web-app, which gives users a cool way to check out
+                    their Spotify data through a user-friendly interface. In between my first and second year,
+                    I also dove into SQL to level up my skills.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <div class="each-social">
+            <a href="https://www.linkedin.com/in/heetpatel30" target="_blank"><img src="assets/svg/linkedin-logo.svg" alt="LinkedIn"></a>
+            <p>My LinkedIn Page</p>
+        </div>
+        <div class="each-social">
+            <a href="https://www.youtube.com/@patelheet30" target="_blank"><img src="assets/svg/youtube-logo.svg" alt="YouTube Channel"></a>
+            <p>My YouTube Channel</p>
+        </div>
+        <div class="each-social">
+            <a href="https://www.github.com/patelheet30" target="_blank"><img src="assets/svg/github-logo.svg" alt="GitHub"></a>
+            <p>My GitHub Profile</p>
+        </div>
+    </div>
+    <script>// Detect if the user is on a mobile device
+    if (/Mobi|Android/i.test(navigator.userAgent)) {
+      var modal = document.getElementById("mobileModal");
+      modal.style.display = "block"; // Show the modal
+
+      // Get the button that closes the modal
+      var btn = document.getElementById("closeModalBtn");
+
+      // When the user clicks the button, close the modal
+      btn.onclick = function() {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+</body>
+</html>
