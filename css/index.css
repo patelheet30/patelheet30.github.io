@@ -110,21 +110,34 @@ body {
     padding: 20px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     box-sizing: border-box;
 }
 
-.each-social{
+.each-social a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: auto;
     justify-content: center;
-    margin: 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    height: auto;
 }
 
 .social-icons a img {
     height: 40px;
     width: 40px;
     margin-right: 10px;
+}
+
+.social-icons a p:hover {
+    color: #a7a7a7;
+    transform: translateY(-4px);
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 4px;
 }
